@@ -1,0 +1,47 @@
+DOCTYPE html>
+<html lang="id"›
+<head>
+‹meta charset="UTF-8">
+‹meta name="viewport" content="width=device-width, initial-
+scale=1.0" >
+‹ title>About Me - Cut Khaila Tiara Putri‹/title>
+< style>
+body {
+font-family: Arial, sans-serif; color: #0b0b0c;
+text-align: center;
+padding: 20px;
+/* Tambahkan background gambar dengan transparansi 75% */ background-image: url ('AboutMe.jpg'); /* Ganti dengan URL
+gambar Anda */
+menutupi seluruh area */
+background-size: cover; /* Mengatur ukuran gambar agar
+background-position: center; /* Mengatur posisi gambar di
+tengah */
+/* Gaya untuk overlay */
+•overlay { background-color: rgba(255, 255, 255, 0.75); /* Warna putih
+dengan transparansi 75% */
+padding: 20px; /* Jarak dalam untuk konten */ border-radius: 8px; /* Sudut yang membulat */ display: inline-block; /* Agar overlay hanya sebesar konten
+* /
+margin-top: 20px; /* Jarak atas untuk pemisahan dari elemen
+di atas */
+•profile-image {
+border-radius: 50%; /* Membuat gambar profil menjadi bulat
+width: 120px; /* Lebar gambar profil */
+</style>
+</ head>
+< body>
+‹div class="overlay"> ‹!-- Overlay untuk memberikan transparansi --
+<h2 >Tentang Saya</h2>
+‹div class="profile-container">
+<img src="cut.jpeg" alt="Foto Profil Cut Khaila Tiara
+Putri" class="profile-image" >
+‹div class="profile-text"›
+‹p›Nama: Cut Khaila Tiara Putri</p>
+<p>NIM: 2022071055</р›
+</div›
+</div›
+<p>Saya adalah mahasiswa jurusan Informatika di Universitas
+Pembangunan Jaya yang bersemangat dalam mengembangkan keterampilan di bidang desain UI/UX, pemrograman, analisis data, dan pengembangan aplikasi. Dengan fondasi yang kuat dalam ilmu komputer dan pengalaman praktis dalam proyek-proyek teknologi, saya berkomitmen untuk berkontribusi pada kemajuan teknologi.‹/p>
+</div>
+«a href="indeks.html">Kembali ke Beranda</a>
+</ body> 
+</html >
