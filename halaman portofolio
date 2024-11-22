@@ -1,0 +1,57 @@
+IDOCTYPE html>
+<html lang="id" ›
+<head>
+‹ meta charset="UTF-8">
+‹meta name="viewport" content="width=device-width, initial-scale=1.0">
+‹ title>Portofolio - Cut Khaila Tiara Putri‹/title>
+‹style>
+body {
+font-family: Arial, sans-serif; color: #0b0b0c;
+background-color: #F0c492; /* Warna latar belakang utama */ text-align: center;
+padding: 20px;
+position: relative; /* Untuk penempatan latar belakang */
+/* Menambahkan gambar latar belakang */
+body:: before {
+content: "*;
+position: absolute;
+top: 0; left: 0; right: 0; bottom: 0;
+background-image: ur1('UPJ-777x437.jpg'); /* Ganti dengan
+URL gambar latar belakang Anda */
+background-size: cover; /* Memastikan gambar menutupi
+seluruh area */ background-position: center; /* Memusatkan gambar */
+opacity: 0.5; /* Mengatur transparansi */
+z-index: -1; /* Memastikan gambar latar belakang berada di
+belakang konten */
+/* Menambahkan gaya untuk konten */
+ content { background-color: rgba(255, 255, 255,
+0.75); /* Latar
+belakang putih transparan untuk konten */
+border-radius: 8px; /* Sudut membulat untuk konten */ padding: 20px; /* Ruang di dalam konten */ display: inline-block; /* Mengatur lebar konten sesuai isi
+* /
+img {
+width: 50%; /* Mengatur lebar gambar */ border-radius: 8px; /* Sudut membulat untuk gambar */ margin-bottom: 10px; /* Jarak bawah untuk gambar */
+}
+</ style>
+</head>
+< body>
+<div class="content">
+<h2>Portofolio</h2>
+‹div>
+<h3>Proyek 1: UI/UX DESIGN</h3>
+<img src="1.jpg" alt="Foto Proyek 1">
+<p>Project ini bertujuan untuk mengembangkan desain UI/UX
+untuk aplikasi ojek online. Aplikasi ini dirancang untuk memberikan pengalaman pengguna yang intuitif, mudah digunakan, dan menarik secara visual.</p> </div› ‹div> <h3>Proyek 2: ESAI CAMPAIGN</h3> <img src="3.jpg" alt="Foto Proyek 2">
+‹p›Project ini berfokus pada kampanye Sustainable
+Development Goals (SDG), khususnya tujuan ke -6:
+"Air Bersih dan
+Sanitasi," untuk mempromosikan solusi pembersihan limbah air. </p>
+</ div>
+‹div›
+<h3>Proyek 3: AR DESIGN BOOK</h3> <img src="4.jpg" alt="Foto Proyek 3">
+‹p›Project ini menggabungkan teknologi Augmented Reality
+(AR) dengan buku anak pop-up bertema planet antariksa, memberikan pengalaman belajar interaktif bagi anak-anak.‹/p>
+</div>
+‹a href="indeks.html">Kembali ke Beranda</a>
+</div›
+</body>
+ </html>
