@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id" ›
+‹head>
+‹meta charset="UTF-8">
+‹meta name="viewport" content="width=device-width, initial-scale=1.0"›
+‹title>Keterampilan Pribadi - Cut Khaila Tiara Putri‹/title>
+‹style >
+body {
+font-family: Arial, sans-serif;
+color: #0b0b0c;
+text-align: center;
+padding: 20px;
+/* Tambahkan background gambar dengan transparansi 75% */
+background-image: url('1_wcEYa9AjnMZxXAau2iuhYw.png'); /* Ganti
+dengan URL gambar Anda */
+background-size: cover; /* Mengatur ukuran gambar agar menutupi
+seluruh area */ background-position: center; /* Mengatur posisi gambar di tengah
+
+/* Gaya untuk overlay */
+•overlay {
+background-color: rgba(255, 255, 255, 0.75); /* Warna putih dengan
+transparansi 75% */
+padding: 20px; /* Jarak dalam untuk konten */ border-radius: 8px; /* Sudut yang membulat */
+display: inline-block; /* Agar overlay hanya sebesar konten */
+skills-list {
+list-style-type: none; /* Menghapus bullet dari daftar */
+padding: 0; /* Menghapus padding default */ margin: 20px 0; /* Jarak atas dan bawah */
+• skills-list li ‹
+margin: 10px 0; /* Jarak antar item daftar */
+</style>
+</head >
+< body>
+‹div class="overlay"> ‹!-- Overlay untuk memberikan transparansi - - >
+‹h2>Keterampilan Pribadi</h2>
+‹ul class="skills-list"›
+‹li>Desain UI/UX</li>
+‹ li>Pemrograman Web (HTML, CSS, JavaScript, PHP) </1i> ‹ li›Analisis Data (Python, SQL)</li> ‹ li>Pengembangan Aplikasi‹/li>
+‹ li>Komunikasi Efektif‹/li›
+</ul>
+‹a href="indeks.html">Kembali ke Beranda</a>
+‹/div>
+‹/body > 
+</html>
